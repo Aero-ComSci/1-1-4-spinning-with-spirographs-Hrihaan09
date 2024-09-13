@@ -3,40 +3,27 @@
 
 *Complete the following.*
 
-1. Compare and contrast zero-iteration conditions and infinite loops.
-2. A link to your code where you solve the following problem. Take the screen size of 800px. Create code or algorithm that always places the object(s), up to 5, in the center an equal distance from one another and from the edges of the screen.
-3. Concentric Squares -- Add a screenshot of your result and the code to create it on your repo.
-Objective: Write a Python program using the turtle module to draw a pattern of concentric squares. The pattern should be created using nested loops.
+1. Zero-iteration condition is where you have a part of a code, for example a loop, but it will only run under a certain condition but that condition is never met, hence the code will never iterate. 
+For example:
+x = False
+If x == True:
+	For n in range(4):
+		print(“Hello World!”)
 
-Instructions:
+On the other hand, an infinite loop is a loop that will always run if set to a certain condition such as set to True, no matter what.
+For example:
+while True:
+	print(“Hello World!’)
 
-Setup the Turtle Environment:
-Import the turtle module.
-Create a turtle object.
-Set the turtle speed to the fastest setting.
-Draw Concentric Squares:
-Use a nested loop to draw multiple squares.
-The outer loop should control the number of squares.
-The inner loop should draw each square.
-Each square should be slightly larger than the previous one.
-Customize the Pattern:
-Use different colors for each square.
-Ensure the squares are centered on the screen.
-Example Output:
-
-The turtle should draw a series of squares, each one larger than the last, creating a pattern of concentric squares.
-
-Hints:
-
-Use the penup() and pendown() methods to move the turtle without drawing.
-Use the color() method to change the turtle’s color.
-Use the forward() and right() methods to draw the sides of the squares.
-
+2. code is uploaded on git
+3. ![image](https://github.com/user-attachments/assets/07d32c4f-9f17-4dc6-bf4e-3f00e49ee6c2)
 
 4. Complete the steps 17, 18 and 19 from [mypltw use clever to sign on](https://pltw.read.inkling.com/a/b/5310c007377c46e28d745961310f0c2e/p/728c751a6c4145bea0ea83c5058fb9f9#44b0003a2ee14fcc9865e7bb5faec747)
-5. Answer to step 21
-6. Insert a screenshot or picture of the algorith you used for your tokenizer on the previous activity.
-7. Give an example of an undecidable problem, attach code.
+5. The flow chart is showing how its avoiding a zero-iteration loop, it will only continue if your answer is = to Y. 
+6. ![image](https://github.com/user-attachments/assets/9d345f51-6fb7-45c7-9d18-f33831adb8a7)
+
+7.![image](https://github.com/user-attachments/assets/ae4f2e0e-7751-4e74-b042-a442aea5f94e)
+
    
 
 
